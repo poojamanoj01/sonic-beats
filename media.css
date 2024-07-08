@@ -1,0 +1,162 @@
+@media(max-width:992px){
+    .navbar{
+        background-color: white;
+    }
+    .nav-item .nav-link{
+        color: black;
+        font-size: 17px;
+        font-weight: 600;
+    }
+    .logo{
+        color: black !important;
+    }
+    .navbar-nav .nav-item{
+        margin: 8px 0px;
+    }
+
+    .img-home{
+        width: 420px;
+        margin-right: 0px;
+    }
+    .home-heading{
+font-size: 40px;
+font-weight: 700;
+line-height: 74px;
+
+    }
+    .box-container2{
+        padding-left: 90px;
+    }
+    .img-about{
+        height: 80%;
+        width: 100%;
+        position: static;
+        top: 0px;
+        right: 0px;
+    }
+    .about-us-container{
+        height: 100vh !important;
+    }
+    .about-us{
+        margin-top: 0px;
+    }
+    .product-category{
+        width: 100%;
+        height: auto;
+    }
+    .heading-product{
+        margin-top: 95px;
+        margin-bottom: 80px;
+    }
+    .container-content{
+    width: 90%;
+    height: 350px;    
+    }
+    footer{
+        display: none;
+    }
+}
+
+@media(max-width:768px){
+    .content-home2{
+        height: auto;
+    }
+    .box-container{
+        display: flex;
+        justify-content: center;
+    }
+    .img-home{
+        width: 500px;
+        margin-top: 50px;
+    }
+
+    .about-us{
+        margin-top: 140px;
+        height: 80vh;
+    }
+
+    .about-us-container{
+        padding-top: 15rem !important;
+        margin-bottom: 140px !important;
+        height: auto;
+    }
+    .home-heading{
+        font-size: 46px;
+        line-height: 82px;
+        text-align: center;
+    }
+    .box-container2{
+        padding-left: 0px;
+    }
+    .para-home{
+    
+        text-align: center;
+        max-width: 100%;
+    }
+    
+    .box-container{
+        padding: 0px;
+    }
+    .btn-home{
+        text-align: center;
+    }
+
+    .content-about{
+        padding: 10px 20px;
+    }
+
+    .img-about{
+        height: 100%;
+    }
+
+    .heading-product{
+        margin-bottom: 60px;
+    }
+
+    .img-card{
+        height: 290px !important;
+    }
+
+    .btn-scroll{
+        display: none;
+    }
+    .container-content{
+        width: 80%;
+        height: 350px;
+    }
+}
+
+@media(max-width:576px){
+    .img-home{
+        width: 340px;
+        margin-top: 50px;
+        margin-right: 0px;
+    }
+    .home-heading{
+     
+        font-size: 32px;
+        line-height: 52px;
+    }
+
+    .about-us-container{
+        padding-top: 2rem !important;
+        margin-top: 0px;
+    }
+    .heading-product{
+        font-size: 25px;
+    }
+
+    .container-content{
+        width: 70%;
+        height: auto;
+        padding: 11px;
+    }
+}
+
+
+
+@media (max-width: 767px) {
+    .mt-sm-0 {
+        margin-top: 1rem !important;
+    }
+}
